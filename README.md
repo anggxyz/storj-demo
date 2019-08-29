@@ -35,13 +35,9 @@ The demo script performs the following:
 2. Transfers 5 demo tokens to each of the five nodes on Matic
 3. Initiates Withdrawal of 1 demo token from Node 1 
 
-Note: Withdrawal is a three step process,
+Note: Withdrawal is a three step process, Initiation (executed by demo.sh), Confirmation and Process exit.
 
-1. Initiation - executed by demo.sh
-2. Confirmation
-3. Process exit
-
-The demo script executes the first step, for the second and third step the following steps are to be followed:
+The demo script executes the first step, for the second and third step the following is to be executed:
 
 1. Copy the transaction hash displayed just before the execution of demo.sh ends
 2. Wait for ~7 minutes for the checkpoint before executing the next step
