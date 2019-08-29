@@ -1,0 +1,14 @@
+{
+    "ropsten": {
+        "StorjDemoToken": "0xA5FE1ceB89d13bEE80595A148223e7E58eF2dA41",
+        "Satellite": "0xB1364DE770a9ac34179773B6cbB06d0f7ED5D68c",
+        "Node1": "0x13f037F7358BBcc4c2B94d8ec8BB4828785e995F",
+        "Node2": "0xdf1Fd87c5622610eD0C192393e2FA3DED7F66051",
+        "Node3": "0xc047A125801E2131139D98e7f1a20c2128af40A3",
+        "Node4": "0x011435bA15926e15D58cb4dcd0Ed0c889C673662",
+        "Node5": "0x697eA424d20065E57F560AAA29019C37C53D72a1"
+    },
+    "matic": {
+        "StorjDemoToken": "0x4f4425a724bd0b8ad84733aa15b789946f929ccc"
+    }
+}
