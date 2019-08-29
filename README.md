@@ -20,11 +20,13 @@ STRJDMO Matic - `0x4f4425a724bd0b8ad84733aa15b789946f929ccc`
 
 ## Usage
 
-clone the repo, `cd` into the scripts directory and run `demo` shell script
+clone the repo, install dependencies, `cd` into the scripts directory and run `demo` shell script
 
 ```
-cd scripts
-./demo.sh
+git clone https://github.com/nglglhtr/storj-demo.git
+cd storj-demo
+npm i
+cd scripts && ./demo.sh
 ```
 
 The demo script performs the following:
