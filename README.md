@@ -14,6 +14,7 @@ The demo uses one Satellite account and 5 Node accounts
 The ERC20 token named [Storj Demo Token (STRJDMO)](/contracts/storj-demo-token.sol) is used to demonstrate the deposit, transfer and withdrawal functions
 
 STRJDMO Ropsten - `0xA5FE1ceB89d13bEE80595A148223e7E58eF2dA41`
+
 STRJDMO Matic - `0x4f4425a724bd0b8ad84733aa15b789946f929ccc` 
 
 
