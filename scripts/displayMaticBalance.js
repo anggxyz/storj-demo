@@ -27,11 +27,11 @@ async function displayBalances () {
   for (let i = 0; i < allAddresses.length; i ++) {
     await matic.balanceOfERC20(allAddresses[i], tokenAddress).then((balance) => {
       if (i == 0) {
-        console.log (chalk.bold.red("satellite"),allAddresses[i].substr(0,8).concat("...\t"), chalk.bold.blue(balance*0.01));
+        console.log (chalk.bold.red("satellite\t"),allAddresses[i].substr(0,8).concat("...\t"), chalk.bold.blue(balance*0.01));
       }
       
       else {
-        console.log (chalk.bold.green("node"), chalk.bold.green(i), allAddresses[i].substr(0,8).concat("...\t"),chalk.bold.blue(balance * 0.01));
+        console.log (chalk.bold.green("node"), chalk.bold.green(i),"\t\t", allAddresses[i].substr(0,8).concat("...\t"),chalk.bold.blue(balance * 0.01));
       }
       
     })

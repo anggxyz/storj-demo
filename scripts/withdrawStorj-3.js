@@ -17,7 +17,7 @@ const matic = new Matic({
 
 matic.wallet = accounts.NODE1_PRIVATE_KEY // prefix with `0x`
 
-// NOTE: Wait for NFT Challenge period tobe complete
+// NOTE: Wait for NFT Challenge period to be completed
 matic.processExits(rootTokenAddress, {
    from,
    onTransactionHash: (hash) => {
